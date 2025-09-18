@@ -1,4 +1,10 @@
 {
+  "version": 2,
+  "name": "red-phone-agent",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
+  "installCommand": "npm install",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -15,5 +21,10 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "app/api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
