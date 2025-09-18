@@ -1,0 +1,696 @@
+/* LinkedIn Solution Builder Styles */
+.solution-builder {
+  min-height: 100vh;
+  background: #f3f6f8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  color: #000;
+}
+
+/* Header */
+.sb-header {
+  background: #0a66c2;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sb-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.linkedin-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  background: white;
+  color: #0a66c2;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 2px;
+}
+
+.logo-text {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.sb-header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-role {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.help-icon {
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Quote Header */
+.quote-header {
+  background: #0a66c2;
+  color: white;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.quote-info {
+  flex: 1;
+}
+
+.quote-id {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.9;
+}
+
+.quote-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quote-title h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.oracle-badge {
+  background: white;
+  color: #0a66c2;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.quote-status {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.amount-section {
+  text-align: right;
+}
+
+.amount-label {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.amount-values {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.outlook {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.saved-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+
+/* Main Content */
+.main-content {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.quote-section {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Quote Tabs */
+.quote-tabs {
+  display: flex;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tab-item {
+  padding: 16px 20px;
+  border-right: 1px solid #dee2e6;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.tab-item.active {
+  background: white;
+  border-bottom: 2px solid #0a66c2;
+}
+
+.tab-amount {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.tab-label {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.add-tab {
+  background: none;
+  border: none;
+  padding: 16px 20px;
+  color: #0a66c2;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Quote Content */
+.quote-content {
+  padding: 24px;
+}
+
+.quote-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: #212529;
+}
+
+.warning-banner {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  color: #856404;
+  padding: 12px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Form Styles */
+.form-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 20px;
+  align-items: end;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 0; /* Prevents flex item from overflowing */
+}
+
+.form-group-small {
+  flex: 0 0 auto;
+  width: 180px; /* Fixed width to prevent overlap */
+  margin-right: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 6px;
+}
+
+.date-input, .select-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.end-date {
+  font-size: 14px;
+  color: #212529;
+  line-height: 1.5;
+}
+
+/* Product Table */
+.product-table {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.table-header {
+  background: #f8f9fa;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 12px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6c757d;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.product-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  padding: 16px;
+  align-items: center;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.product-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.product-status {
+  font-size: 12px;
+  color: #28a745;
+}
+
+.subsidiary {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.review-config {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  margin-top: 4px;
+}
+
+.quantity, .discount, .unit-price, .net-price {
+  font-size: 14px;
+  text-align: center;
+}
+
+.unit-price, .net-price {
+  font-weight: 600;
+  color: #0a66c2;
+}
+
+/* Product Features */
+.product-features {
+  padding: 0 16px 16px 16px;
+  background: #f8f9fa;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.feature-icon {
+  color: #ced4da;
+}
+
+.feature-name {
+  flex: 1;
+}
+
+.feature-value, .feature-quantity {
+  font-weight: 500;
+  color: #212529;
+}
+
+.add-product {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Pricing Summary */
+.pricing-summary {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+.pricing-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.pricing-row.total {
+  font-weight: 600;
+  border-top: 1px solid #dee2e6;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+.pricing-row.adjustment {
+  font-size: 12px;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.pricing-row.final {
+  font-weight: 600;
+  font-size: 16px;
+  border-top: 2px solid #dee2e6;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+.pending-badge {
+  background: #ffc107;
+  color: #212529;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+/* Quote Advisor */
+.quote-advisor {
+  border-top: 1px solid #dee2e6;
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+.quote-advisor h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  color: #212529;
+}
+
+.advisor-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.advisor-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+.advisor-section span:first-child {
+  flex: 1;
+  color: #212529;
+}
+
+.review-required {
+  color: #dc3545;
+  font-size: 12px;
+}
+
+.must-resolve {
+  background: #dc3545;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.info-only {
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.manage-btn, .download-btn, .request-btn, .crm-btn {
+  background: none;
+  border: 1px solid #0a66c2;
+  color: #0a66c2;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Form Actions */
+.form-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #dee2e6;
+}
+
+.btn-secondary {
+  background: white;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #0a66c2;
+  border: 1px solid #0a66c2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-section {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.section-header {
+  background: #f8f9fa;
+  padding: 16px;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-header h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: #212529;
+}
+
+.edit-btn {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.section-content {
+  padding: 16px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.label {
+  color: #212529;
+}
+
+.info-icon, .refresh-icon {
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  color: #212529;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  color: #212529;
+}
+
+.bill-to-info {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.more-settings {
+  background: none;
+  border: none;
+  color: #0a66c2;
+  padding: 16px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .main-content {
+    flex-direction: column;
+    padding: 16px;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+  
+  .form-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .table-header, .product-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .table-header {
+    display: none;
+  }
+  
+  .product-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .sb-header {
+    padding: 0 16px;
+  }
+  
+  .quote-header {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .quote-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .quote-title h1 {
+    font-size: 18px;
+  }
+  
+  .quote-tabs {
+    flex-direction: column;
+  }
+  
+  .tab-item {
+    min-width: auto;
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+  }
+}

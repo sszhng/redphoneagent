@@ -1,0 +1,295 @@
+
+> red-phone-agent@0.1.0 start
+> react-scripts start
+
+(node:43132) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:43132) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view red-phone-agent in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.25.205.78:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Failed to compile.
+
+Module not found: Error: Can't resolve './components/ChatInterface' in '/Users/susizhan/saleshack/red-phone-agent/src'
+ERROR in ./src/App.js 6:0-55
+Module not found: Error: Can't resolve './components/ChatInterface' in '/Users/susizhan/saleshack/red-phone-agent/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Failed to compile.
+
+Module not found: Error: Can't resolve './components/ChatInterface' in '/Users/susizhan/saleshack/red-phone-agent/src'
+ERROR in ./src/App.js 6:0-55
+Module not found: Error: Can't resolve './components/ChatInterface' in '/Users/susizhan/saleshack/red-phone-agent/src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 25:34:   'aiService' is not defined          no-undef
+  Line 42:9:    'contextManager' is not defined     no-undef
+  Line 47:31:   'errorHandler' is not defined       no-undef
+  Line 91:7:    'contextManager' is not defined     no-undef
+  Line 94:35:   'contextManager' is not defined     no-undef
+  Line 97:30:   'aiService' is not defined          no-undef
+  Line 105:35:  'responseFormatter' is not defined  no-undef
+  Line 130:9:   'contextManager' is not defined     no-undef
+  Line 142:31:  'errorHandler' is not defined       no-undef
+  Line 164:29:  'errorHandler' is not defined       no-undef
+  Line 211:16:  'contextManager' is not defined     no-undef
+  Line 284:5:   'contextManager' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/ChatInterface.js
+  Line 25:34:   'aiService' is not defined          no-undef
+  Line 42:9:    'contextManager' is not defined     no-undef
+  Line 47:31:   'errorHandler' is not defined       no-undef
+  Line 91:7:    'contextManager' is not defined     no-undef
+  Line 94:35:   'contextManager' is not defined     no-undef
+  Line 97:30:   'aiService' is not defined          no-undef
+  Line 105:35:  'responseFormatter' is not defined  no-undef
+  Line 130:9:   'contextManager' is not defined     no-undef
+  Line 142:31:  'errorHandler' is not defined       no-undef
+  Line 164:29:  'errorHandler' is not defined       no-undef
+  Line 211:16:  'contextManager' is not defined     no-undef
+  Line 284:5:   'contextManager' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 63:7:    'contextManager' is not defined     no-undef
+  Line 66:35:   'contextManager' is not defined     no-undef
+  Line 69:30:   'aiService' is not defined          no-undef
+  Line 77:35:   'responseFormatter' is not defined  no-undef
+  Line 102:9:   'contextManager' is not defined     no-undef
+  Line 114:31:  'errorHandler' is not defined       no-undef
+  Line 136:29:  'errorHandler' is not defined       no-undef
+  Line 183:16:  'contextManager' is not defined     no-undef
+  Line 256:5:   'contextManager' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+ERROR in [eslint] 
+src/components/ChatInterface.js
+  Line 63:7:    'contextManager' is not defined     no-undef
+  Line 66:35:   'contextManager' is not defined     no-undef
+  Line 69:30:   'aiService' is not defined          no-undef
+  Line 77:35:   'responseFormatter' is not defined  no-undef
+  Line 102:9:   'contextManager' is not defined     no-undef
+  Line 114:31:  'errorHandler' is not defined       no-undef
+  Line 136:29:  'errorHandler' is not defined       no-undef
+  Line 183:16:  'contextManager' is not defined     no-undef
+  Line 256:5:   'contextManager' is not defined     no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 105:16:  'contextManager' is not defined  no-undef
+  Line 178:5:   'contextManager' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 101:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/ChatInterface.js
+  Line 105:16:  'contextManager' is not defined  no-undef
+  Line 178:5:   'contextManager' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 135:5:  'contextManager' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 85:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/ChatInterface.js
+  Line 135:5:  'contextManager' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 85:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 85:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 85:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 85:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 5:8:   'simpleAiService' is defined but never used                     no-unused-vars
+  Line 82:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 5:8:   'simpleAiService' is defined but never used                     no-unused-vars
+  Line 82:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 112:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 112:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 163:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 163:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 163:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 163:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+webpack compiled with 1 warning
+Compiling...
+Compiled with warnings.
+
+[eslint] 
+src/components/ChatInterface.js
+  Line 163:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/components/ChatInterface.js
+  Line 163:9:  'handleSuggestCaseCreation' is assigned a value but never used  no-unused-vars
+
+src/services/simpleAiService.js
+  Line 102:32:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+  Line 102:58:  Unexpected mix of '||' and '&&'. Use parentheses to clarify the intended order of operations  no-mixed-operators
+
+webpack compiled with 1 warning
